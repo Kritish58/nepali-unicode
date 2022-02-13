@@ -1,0 +1,12 @@
+{
+   "name": "nepali-unicode",
+   "version": "1.0.0",
+   "description": "a lightweight javascript library to help convert english keywords to romanized nepali keywords",
+   "main": "index.js",
+   "author": "Kritish Bhattarai",
+   "repository": {
+      "type": "git",
+      "url": ""
+   },
+   "license": "MIT"
+}
