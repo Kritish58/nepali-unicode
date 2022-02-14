@@ -2,11 +2,22 @@
    "name": "nepali-unicode",
    "version": "1.0.0",
    "description": "a lightweight javascript library to help convert english keywords to romanized nepali keywords",
-   "main": "index.js",
+   "main": "build/index.js",
    "author": "Kritish Bhattarai",
    "repository": {
       "type": "git",
-      "url": ""
+      "url": "https://github.com/Kritish58/nepali-unicode"
    },
-   "license": "MIT"
+   "scripts": {
+      "build": "npx browserify main.js -o build/nepali-unicode.min.js"
+   },
+   "keywords": [
+      "nepali-unicode",
+      "emglish-to-nepali",
+      "romanised-nepali"
+   ],
+   "license": "MIT",
+   "devDependencies": {
+      "browserify": "^17.0.0"
+   }
 }

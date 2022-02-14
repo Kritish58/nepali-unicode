@@ -6,7 +6,7 @@ const numbers = require('./mapping/numbers');
 const specialCharacters = require('./mapping/specialCharacters');
 
 // * utils
-const { getMappedValueType, combineWithInitials } = require('./utils');
+const { getMappedValueType, combineWithInitials } = require('./utils/utils');
 
 const MappingData = {
    ...consonants,
