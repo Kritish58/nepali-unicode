@@ -15,7 +15,7 @@ const MappingData = {
    ...numbers,
    ...specialCharacters,
 
-   kharaayo: ['0000', '1111'], //* test
+   __test__: ['0000', '1111'],
 };
 
 const mapper = (input) => {
