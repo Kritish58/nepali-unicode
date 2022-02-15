@@ -34,4 +34,4 @@ const consonants = {
    ha: '0939',
 };
 
-module.exports = consonants;
+export default consonants;

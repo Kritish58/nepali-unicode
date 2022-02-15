@@ -4,4 +4,4 @@ const specialCharacters = {
    '||': '0965',
 };
 
-module.exports = specialCharacters;
+export default specialCharacters;

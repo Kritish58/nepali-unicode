@@ -12,4 +12,4 @@ const independentVowels = {
    AU: '0913',
 };
 
-module.exports = independentVowels;
+export default independentVowels;

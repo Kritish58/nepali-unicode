@@ -11,4 +11,4 @@ const dependentVowels = {
    au: '094C',
 };
 
-module.exports = dependentVowels;
+export default dependentVowels;

@@ -11,4 +11,4 @@ const numbers = {
    9: '096F',
 };
 
-module.exports = numbers;
+export default numbers;

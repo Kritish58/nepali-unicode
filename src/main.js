@@ -1,12 +1,12 @@
 //* mapping
-const consonants = require('./mapping/consonants');
-const independentVowels = require('./mapping/independentVowels');
-const dependentVowels = require('./mapping/dependentVowels');
-const numbers = require('./mapping/numbers');
-const specialCharacters = require('./mapping/specialCharacters');
+import consonants from './mapping/consonants.js';
+import independentVowels from './mapping/independentVowels.js';
+import dependentVowels from './mapping/dependentVowels.js';
+import numbers from './mapping/numbers.js';
+import specialCharacters from './mapping/specialCharacters.js';
 
 // * utils
-const { getMappedValueType, combineWithInitials } = require('./utils/utils');
+import { getMappedValueType, combineWithInitials } from './utils/utils.js';
 
 const MappingData = {
    ...consonants,
@@ -50,13 +50,9 @@ const engine = (input) => {
    return output;
 };
 
-const converter = (input) => {
+export const converter = (input) => {
    const unicodesInArray = engine(input);
 
    // * if output => return output; else return original input
    return unicodesInArray.length > 0 ? unicodesInArray.map((item) => item).join('') : input;
-};
-
-module.exports = {
-   converter,
 };
