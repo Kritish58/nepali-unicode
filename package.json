@@ -1,6 +1,6 @@
 {
    "name": "nepali-unicode",
-   "version": "1.0.8",
+   "version": "1.0.9",
    "description": "a lightweight javascript library to help convert english keywords to romanized nepali keywords",
    "main": "src/main.js",
    "author": "Kritish Bhattarai",
