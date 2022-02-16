@@ -15,6 +15,15 @@ const MappingData = {
    ...numbers,
    ...specialCharacters,
 
+   /** 
+      // * Please add new words here
+      //* Example:
+      ...{
+         "kharaayo": ["0915", "0930", "0925"]
+      } 
+   
+   */
+
    __test__: ['0000', '1111'],
 };
 
@@ -50,7 +59,7 @@ const engine = (input) => {
    return output;
 };
 
-export const converter = (input) => {
+export const npConverter = (input) => {
    const unicodesInArray = engine(input);
 
    // * if output => return output; else return original input
